@@ -14,6 +14,9 @@ export default {
     tag() {
       return this.$route.params.tag;
     }
+  },
+  components: {
+    Duplicate
   }
 };
 </script>
