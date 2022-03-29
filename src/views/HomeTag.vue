@@ -4,6 +4,7 @@
 
 <script>
 import RwvArticleList from "@/components/ArticleList";
+
 export default {
   name: "RwvHomeTag",
   components: {
@@ -13,9 +14,6 @@ export default {
     tag() {
       return this.$route.params.tag;
     }
-  },
-  components: {
-    Duplicate
   }
 };
 </script>
